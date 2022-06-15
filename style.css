@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+.wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border:1px solid black;
+}
+.card-list{
+    border:1px solid black;
+    border-radius:8px;
+   
+}
